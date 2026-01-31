@@ -9,7 +9,6 @@ I enjoy building clean, scalable UIs and practical tools
 - Frontend applications used in real-world workflows  
 - UI state management and async behavior that’s easy to reason about  
 - Performance improvements for UI-heavy screens  
-- Browser-based automation using Node.js  
 
 ---
 
@@ -22,16 +21,17 @@ I enjoy building clean, scalable UIs and practical tools
 ---
 
 ## 🧰 Tech I Use
-**Frontend:** JavaScript (ES6+), React, Vue 2/3  
-**Backend & Automation:** Node.js, REST APIs, Puppeteer  
-**Tooling:** Git, Babel, Webpack, Linux  
 
----
+### 🎨 Frontend
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-f7df1e?style=flat&logo=javascript&logoColor=000)
+![TypeScript](https://img.shields.io/badge/TypeScript-Typed_JS-3178c6?style=flat&logo=typescript&logoColor=fff)
+![React](https://img.shields.io/badge/React-UI-61dafb?style=flat&logo=react&logoColor=000)
+![Next.js](https://img.shields.io/badge/Next.js-Framework-000000?style=flat&logo=nextdotjs&logoColor=fff)
 
-## 📂 Projects You’ll Find Here
-- **Automation tools** for browser flows and form handling  
-- **UI-heavy applications** with tables, modals, and complex state  
-- **JavaScript & frontend notes** from hands-on learning and experiments  
+### 🎨 Styling
+![HTML5](https://img.shields.io/badge/HTML5-Markup-e34f26?style=flat&logo=html5&logoColor=fff)
+![CSS3](https://img.shields.io/badge/CSS3-Styling-1572b6?style=flat&logo=css3&logoColor=fff)
+![Less](https://img.shields.io/badge/Less-CSS-1d365d?style=flat&logo=less&logoColor=fff)
 
 ---
 
