@@ -1,48 +1,51 @@
-# Chandrabhan Singh 👋
+# Chandrabhan Singh
 
-Frontend Engineer | JavaScript • React • Next.js  
-I enjoy building clean, scalable UIs and practical tools
+**Frontend Engineer transitioning into AI Engineering**
+Building AI-powered products with React, Next.js, TypeScript & LLMs
 
----
-
-## 👨‍💻 What I Work On
-- Frontend applications used in real-world workflows  
-- UI state management and async behavior that’s easy to reason about  
-- Performance improvements for UI-heavy screens  
+New Delhi, India · Open to remote roles
 
 ---
 
-## 🌱 Currently Learning & Improving
-- Frontend architecture and system design  
-- JavaScript internals (event loop, async patterns, memory)  
-- Performance tuning for large React / Vue applications  
-- Better tooling and automation workflows  
+## What I Do
+
+- Build **AI-powered user experiences** — streaming chat UIs, agent interfaces, and intelligent workflows
+- Design **schema-driven and contract-driven architectures** that keep UI dumb and logic testable
+- Ship production frontend with **React, Next.js, TypeScript, Zustand, and Tailwind**
 
 ---
 
-## 🧰 Tech I Use
+## Featured Projects
 
-### 🎨 Frontend
-![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-f7df1e?style=flat&logo=javascript&logoColor=000)
-![TypeScript](https://img.shields.io/badge/TypeScript-Typed_JS-3178c6?style=flat&logo=typescript&logoColor=fff)
-![React](https://img.shields.io/badge/React-UI-61dafb?style=flat&logo=react&logoColor=000)
-![Next.js](https://img.shields.io/badge/Next.js-Framework-000000?style=flat&logo=nextdotjs&logoColor=fff)
+### AI & Agents
+- **[recruiter-ai](https://github.com/chandrabhan-singh-27d/recruiter-ai)** — AI-powered recruiter assistant that automates candidate screening and matching
+- **[weather-agent](https://github.com/chandrabhan-singh-27d/weather-agent)** — AI agent using tool-calling to fetch and reason about weather data
 
-### 🎨 Styling
-![HTML5](https://img.shields.io/badge/HTML5-Markup-e34f26?style=flat&logo=html5&logoColor=fff)
-![CSS3](https://img.shields.io/badge/CSS3-Styling-1572b6?style=flat&logo=css3&logoColor=fff)
-![Less](https://img.shields.io/badge/Less-CSS-1d365d?style=flat&logo=less&logoColor=fff)
+### Architecture & Patterns
+- **[contract-driven-workflow](https://github.com/chandrabhan-singh-27d/contract-driven-workflow)** — Workflow engine built on pure state machines. Transitions, roles, and guards owned by a mock BFF. UI stays dumb, domain logic stays testable.
+- **[schema-based-form](https://github.com/chandrabhan-singh-27d/schema-based-form)** — Dynamic forms driven entirely by JSON schema
 
 ---
 
-## 🧠 How I Like to Work
-- Keep things simple and readable  
-- Break problems into small, predictable pieces  
-- Avoid over-engineering  
-- Optimize when there’s a real reason  
+## Tech
+
+**Frontend:** JavaScript · TypeScript · React · Next.js · Zustand · Tailwind · HTML/CSS
+**AI/LLM:** OpenAI API · LangChain · Prompt Engineering · RAG · Tool-calling Agents
+**Backend:** Node.js · Python · REST APIs
+**Tools:** Git · Vitest · Zod · Vite
 
 ---
 
-## 🤝 Open To
-- Frontend Engineer / SDE-2 opportunities  
-- Product teams that value clarity and collaboration
+## Currently Exploring
+
+- RAG pipelines and vector databases
+- Multi-step AI agents with guardrails
+- Building AI-native products designed for both humans and AI agents
+
+---
+
+## Open To
+
+- **AI Engineer** roles at product-focused startups
+- **Product Engineer** roles building AI-powered features
+- Remote positions worldwide
