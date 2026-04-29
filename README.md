@@ -23,9 +23,9 @@
 
 | Project | What It Does | Stack |
 |---------|-------------|-------|
+| [**docmind**](https://github.com/chandrabhan-singh-27d/docmind) | Local-first RAG over your documents. Embeddings run **in-process** via Transformers.js (no API token, no rate limits). Per-doc or whole-library chat with a transparent step-by-step search trace, content-hash dedup, history-aware retrieval, and a self-hosted error pipeline (Postgres + Metabase). | Next.js 16 · TypeScript strict · Groq (Llama 3.3 70B) · Transformers.js · pgvector · Drizzle · Zod |
 | [**weather-agent**](https://github.com/chandrabhan-singh-27d/weather-agent) | AI assistant using Claude with tool-calling to fetch and reason about real-time weather data. Full agent loop — Claude decides which tools to call, no hardcoded logic. | TypeScript · React · Express · Claude API |
-| 🔨 *RAG Knowledge Base* | *Coming soon* — Chat with your documents. Upload, chunk, embed, retrieve, cite. | Next.js · Vercel AI SDK · pgvector · Claude |
-| 🔨 *Multi-Agent System* | *Coming soon* — Multiple agents collaborating with planning, handoff, and error recovery. | TypeScript · Anthropic SDK · Agent Orchestration |
+| 🔨 *AgentFlow — Multi-Agent System* | *In progress* — Planner / Researcher / Writer / Reviewer agents orchestrated by an XState machine. Real-time dashboard streams every tool call, handoff, and decision. Token + iteration budgets enforced as state-machine guards (hard stops, not soft warnings). Human-in-the-loop pause-for-approval on destructive tools. | Next.js · CopilotKit (AG-UI) · Vercel AI SDK v5 · XState 5 · Zustand · pgvector |
 
 ### 🏗️ Architecture & Engineering
 
@@ -38,11 +38,11 @@
 
 ## 🧰 Tech
 
-**🤖 AI/LLM:** Claude API (tool use, streaming) · OpenAI API (embeddings, function calling) · Vercel AI SDK · RAG · Vector Databases · Prompt Engineering · Agent Orchestration
+**🤖 AI/LLM:** Claude API (tool use, streaming) · Groq (Llama 3.3) · Transformers.js (in-process embeddings) · Vercel AI SDK v5 · CopilotKit / AG-UI · pgvector · RAG · Prompt-injection defense · Agent Orchestration (XState)
 
-**💻 Product Engineering:** TypeScript · JavaScript · Python · React · Next.js · Zustand · Zod · Tailwind
+**💻 Product Engineering:** TypeScript (strict) · React · Next.js (App Router) · Zustand · Zod · Tailwind v4 · Drizzle · Result\<T,E\> + discriminated-union errors
 
-**⚙️ Platform:** Node.js · Express · REST APIs · Vite · Vitest · Git
+**⚙️ Platform:** Node.js · PostgreSQL + pgvector · Podman / Docker · Metabase (self-hosted observability) · Playwright (visual regression) · Vitest · Git
 
 ---
 
